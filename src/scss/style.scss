@@ -1,0 +1,14 @@
+@import "spectre";
+@import "spectre-overrides";
+@import "type";
+@import "components";
+
+body {
+  font-size: 2em;
+}
+
+.app{
+  .router-view{
+    padding: 1em;
+  }
+}
